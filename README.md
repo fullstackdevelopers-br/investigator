@@ -9,8 +9,8 @@
 <li><code>chmod a+x winetwork.sh</code></li>
 <li><code> ./winetwork.sh </code></li>
 </ol>
-<img src="https://raw.githubusercontent.com/And3R66/winetwork/master/investigator.png">
-<img src="https://raw.githubusercontent.com/And3R66/winetwork/master/i2.png">
+<img src="investigator.png">
+<img src="i2.png">
 
 # :exclamation: Requirements
 
