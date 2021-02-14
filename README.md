@@ -13,11 +13,10 @@
 <img src="i2.png">
 
 # :exclamation: Requirements
-
-# :exclamation: Warnning
-<p>Para que todas as opções funcionem corretamente, execute o comando com permissão de administrador. <strong>sudo</strong>.</p>
-
 <ul>
 <li><p>Sistema Operacional Linux!</p></li>
 </ul>
+
+# :exclamation: Warnning
+<p>Para que todas as opções funcionem corretamente, execute o comando com permissão de administrador. <strong>sudo</strong>.</p>
 
