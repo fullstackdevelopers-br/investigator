@@ -6,18 +6,18 @@ red='\e[1;31m'
 yellow='\e[1;33m'
 
 echo -e $BlueF "
- _______ _______     _______ _______ _______ _______ _______ _______ _______
-|\     /|\     /|   |\     /|\     /|\     /|\     /|\     /|\     /|\     /|
-| +---+ | +---+ |   | +---+ | +---+ | +---+ | +---+ | +---+ | +---+ | +---+ |
-| |   | | |   | |   | |   | | |   | | |   | | |   | | |   | | |   | | |   | |
-| |w  | | |i  | |   | |n  | | |e  | | |t  | | |w  | | |o  | | |r  | | |k  | |
-| +---+ | +---+ |   | +---+ | +---+ | +---+ | +---+ | +---+ | +---+ | +---+ |
-|/_____\|/_____\|   |/_____\|/_____\|/_____\|/_____\|/_____\|/_____\|/_____\|
+ _______ _______     _______ _______ _______ _______ _______ _______ _______  _______ _______  ______
+|\     /|\     /|   |\     /|\     /|\     /|\     /|\     /|\     /|\     /||\     /||\    /||\    /|
+| +---+ | +---+ |   | +---+ | +---+ | +---+ | +---+ | +---+ | +---+ | +---+ || +---+ ||+---+ ||+---+ |
+| |   | | |   | |   | |   | | |   | | |   | | |   | | |   | | |   | | |   | || |   | |||   | |||   | |
+| |I  | | |n  | |   | |v  | | |e  | | |s  | | |t  | | |i  | | |g  | | |a  | || |t  | |||o  | |||r  | |
+| +---+ | +---+ |   | +---+ | +---+ | +---+ | +---+ | +---+ | +---+ | +---+ || +---+ ||+---+ ||+---+ |
+|/_____\|/_____\|   |/_____\|/_____\|/_____\|/_____\|/_____\|/_____\|/_____\||/_____\||/____\||/____\|
 
  "
 echo -e $red "Para chamar o menu de opções pressione ENTER"
 echo -e $yellow "Digite o Número Desejado"
-echo -e $cyan "                                          [Autor: Anderson.b.Silva]"
+echo -e $cyan "                                          [Autor: Ezequiel L Sousa] [Organization: FullStackDevelopers-Br]"
 echo ""
 
 
@@ -28,32 +28,32 @@ do
 
    placas/ativas)
    echo "*** listar as placas ativas ***"
-   ifconfig -a
+   ip addr
     ;;
 
    Desabilitar/eth0)
    echo "Desabilitar uma placa com endereço eth0)"
-   ifconfig eth0 down
+   ip link set down dev eth0
     ;;
 
    Rotas)
-   echo " Ver as portas abertas no computador:"
-   netstat -r
+   echo " Ver as portas abertas roteamento computador:"
+   ip route list
     ;;
 
    portas/abertas)
-   echo "Portas abertas no computador: "
-   netstat -a
+   echo "Investigar todas conexões: "
+   ss -a
     ;;
 
    Conexões/TCP)
    echo " Conexões TCP conectadas do seu computador: "
-   netstat -nt
+   ss -tn state established
     ;;
 
    processos/ativos)
    echo "Verificar os processos ativos"
-   ps aux
+   ps auxf
     ;;
 
    uptime)
@@ -68,7 +68,7 @@ do
 
    endereços/configurados)
    echo "endereços de rede configurados:"
-   ip addr list
+   ip a list
     ;;
 
    Rede)
@@ -76,7 +76,7 @@ do
    echo -e "[+] Verificando conexao com a Internet..."
    sleep 0.15
    echo -e " um momento!\n"
-   ping -c 1 google.com &> /dev/null
+   ping google.com &> /dev/null
    if [ $? -gt 0 ]; then
    ping -c 1 uol.com.br &> /dev/null
    if [ $? -gt 0 ]; then

@@ -9,18 +9,15 @@
 <li><code>chmod a+x winetwork.sh</code></li>
 <li><code> ./winetwork.sh </code></li>
 </ol>
-<img src="https://raw.githubusercontent.com/And3R66/winetwork/master/i1.png">
+<img src="https://raw.githubusercontent.com/And3R66/winetwork/master/investigator.png">
 <img src="https://raw.githubusercontent.com/And3R66/winetwork/master/i2.png">
 
 # :exclamation: Requirements
 
+# :exlamation: Warnning
+<p>Para que todas as opções funcionem corretamente, execute o comando com permissão de administrador. <strong>sudo</strong>.</p>
+
 <ul>
-<li>
-<p>A linux operating system.</p>
-</li>
-<li>
-<p>net-tools
-</p>
-</li>
+<li><p>Sistema Operacional Linux!</p></li>
 </ul>
 
