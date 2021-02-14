@@ -14,7 +14,7 @@
 
 # :exclamation: Requirements
 
-# :exlamation: Warnning
+# :exclamation: Warnning
 <p>Para que todas as opções funcionem corretamente, execute o comando com permissão de administrador. <strong>sudo</strong>.</p>
 
 <ul>
