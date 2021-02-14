@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/And3R66/winetwork/master/investigator-n1.jpg">
+<img src="investigator-n1.jpg">
 
  Ferramenta para auxiliar na configuração e verificação de problemas na rede.
 
