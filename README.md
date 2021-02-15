@@ -4,7 +4,7 @@
 
 # Instalação 
 <ol>
-<li><code>git clone https://github.com/oandersonbsilva/winetwork.git</code></li>
+<li><code>git clone https://github.com/fullstackdevelopers-br/investigator.git</code></li>
 <li><code>cd winetwork</code></li>
 <li><code>chmod a+x winetwork.sh</code></li>
 <li><code> ./winetwork.sh </code></li>
