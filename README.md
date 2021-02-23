@@ -5,9 +5,9 @@
 # Instalação 
 <ol>
 <li><code>git clone https://github.com/fullstackdevelopers-br/investigator.git</code></li>
-<li><code>cd winetwork</code></li>
-<li><code>chmod a+x winetwork.sh</code></li>
-<li><code> ./winetwork.sh </code></li>
+<li><code>cd investigator</code></li>
+<li><code>chmod a+x investigator.sh</code></li>
+<li><code> ./investigator.sh </code></li>
 </ol>
 <img src="investigator.png">
 <img src="i2.png">
